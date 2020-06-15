@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GENERAL SETTING */
+
+/* Header */
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: cornflowerblue;
+    z-index: 9999;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: darkblue;
+    margin: 0
+}
+header h1 a {
+    text-decoration: none;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    font-weight: lighter;
+    font-size: 1.5vw;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+/* Hero Start */
+.hero {
+    background-color: darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.hero h2 {
+    color: darkblue;
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 80px;
+    font-style: italic;
+}
+.photo-img {
+    background-image: url("./images/pete-photo.jpg");
+    width: 200px;
+    min-height: 200px;
+    margin: 15px;
+    background-size: cover;
+    transform: rotate(-90deg);
+}
+/* About Me Start */
