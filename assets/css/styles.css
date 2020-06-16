@@ -21,6 +21,15 @@ h4 {
     font-weight: bold;
     text-align: justify;
 }
+h5 {
+    color: darkblue;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+div a {
+    color: darkblue;
+}
 /* Header */
 .header-background {
     padding: 20px 35px;
@@ -37,7 +46,6 @@ h4 {
     height: 100%;
     width: 100%;
     z-index: 9999;
-    
 }
 header h1 {
     margin: 0;
@@ -64,7 +72,6 @@ header nav ul li a {
     padding: 10px 15px;
     text-decoration: none;
 }
-
 /* Hero Start */
 .hero {
     background-image: url("./images/background.jpg");
@@ -102,7 +109,6 @@ header nav ul li a {
     margin-top: 7px;
 }
 .bio {
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -111,10 +117,7 @@ header nav ul li a {
     padding-bottom: 50px;
     width: 95%;
     padding: 20px;
-
-    
 }
-
 .about-me-story {
     color: darkblue;
     font-size: 30px;
@@ -191,4 +194,29 @@ header nav ul li a {
     background-image: url("./images/budget.jpg");
     background-size: cover;
     background-position: 80%;
+}
+.run-buddy-link {
+    width: 100%;
+    height: auto;
+}
+/* Contact Section Start */
+.contact {
+    padding: 20px 35px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 2 80%;
+    border-left: 5px solid darkblue;
+    width: 100%;
+    margin: 0 auto;
+    color: darkblue;
+    padding-left: 50px;
+    font-size: 1rem;
 }
