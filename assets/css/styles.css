@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 /* GENERAL SETTING */
-
+.side-border {
+    border: 0 0 0 5px;
+    border-color: darkgray;
+}
 /* Header */
 .header-background {
     padding: 20px 35px;
@@ -79,3 +82,43 @@ header nav ul li a {
     opacity: 0.9;
 }
 /* About Me Start */
+.body-background {
+    background-color: darkgray;
+    width: 100%;
+    padding: 1px;
+    margin-top: 7px;
+}
+.bio {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 95%;
+    padding: 20px;
+
+    
+}
+.about-me-title {
+    color: darkblue;
+    font-size: 36px;
+    font-weight: bold;
+    flex: 1 30%;
+    text-align: center;
+    
+
+
+}
+.about-me-story {
+    color: darkblue;
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 2 70%;
+    border-left: 5px solid darkblue;
+    padding-left: 50px;
+}
