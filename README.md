@@ -8,7 +8,7 @@ A website that offers a profile to future employers.
 *CSS
 
 ## Website
-https://durganp1.github.io/M2Challenge/
+https://durganp1.github.io/Personal-Profile/
 
 ## Contribution
 Made with :heart: by Peter
